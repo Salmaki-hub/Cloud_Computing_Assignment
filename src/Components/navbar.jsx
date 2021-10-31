@@ -18,8 +18,7 @@ import Divider from '@mui/material/Divider';
 export default function MenuAppBar() {
   const [auth, setAuth] = React.useState(true);
   const [anchorEl, setAnchorEl] = React.useState(null);
-
-
+  
   const handleMenu = (event) => {
     setAnchorEl(event.currentTarget);
   };
